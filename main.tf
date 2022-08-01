@@ -4,6 +4,14 @@ resource "random_pet" "pet" {
   }
   length = 100
 }
+
+resource "random_pet" "pet2" {
+  keepers = {
+    some_id = "90"
+  }
+  length = 100
+}
+
 resource "random_string" "random_suffix" {
   length  = 38
   special = true
