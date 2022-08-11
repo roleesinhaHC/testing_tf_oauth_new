@@ -6,7 +6,7 @@ resource "random_pet" "pet" {
 }
 resource "random_string" "random_suffix" {
   length  = 38
-  special = true
+  special = false
   upper   = true
 }
 resource "null_resource" "example777" {}
