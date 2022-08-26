@@ -9,4 +9,3 @@ resource "random_string" "random_suffix" {
   special = false
   upper   = true
 }
-resource "null_resource" "example777" {}
