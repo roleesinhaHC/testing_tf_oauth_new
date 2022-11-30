@@ -1,6 +1,6 @@
 resource "random_pet" "pet" {
   keepers = {
-    some_id = "90"
+    some_id = "9"
   }
   length = 10
 }
