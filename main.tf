@@ -19,9 +19,4 @@ resource "random_string" "random_suffix3" {
   special = false
   upper   = true
 }
-esource "random_string" "random_suffix4" {
-  length  = 30
-  special = false
-  upper   = true
-}
 resource "null_resource" "example7777" {}
