@@ -9,4 +9,14 @@ resource "random_string" "random_suffix" {
   special = false
   upper   = true
 }
+resource "random_string" "random_suffix2" {
+  length  = 30
+  special = false
+  upper   = true
+}
+resource "random_string" "random_suffix3" {
+  length  = 30
+  special = false
+  upper   = true
+}
 resource "null_resource" "example7777" {}
