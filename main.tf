@@ -18,5 +18,17 @@ resource "random_string" "random_suffix3" {
   length  = 30
   special = false
   upper   = true
+}resource "random_string" "random_suffix4" {
+  length  = 30
+  special = false
+  upper   = true
+}resource "random_string" "random_suffix5" {
+  length  = 30
+  special = false
+  upper   = true
+}resource "random_string" "random_suffix6" {
+  length  = 30
+  special = false
+  upper   = true
 }
 resource "null_resource" "example7777" {}
