@@ -9,12 +9,12 @@ resource "random_string" "random_suffix" {
   special = false
   upper   = true
 }
-resource "random_string2" "random_suffix2" {
+resource "random_string" "random_suffix2" {
   length  = 30
   special = false
   upper   = true
 }
-resource "random_string3" "random_suffix3" {
+resource "random_string" "random_suffix3" {
   length  = 30
   special = false
   upper   = true
