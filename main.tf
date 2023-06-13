@@ -4,9 +4,4 @@ resource "random_pet" "pet" {
   }
   length = 10
 }
-resource "random_string" "random_suffix2" {
-  length  = 30
-  special = false
-  upper   = true
-}
 resource "null_resource" "example7777" {}
