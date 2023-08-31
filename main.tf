@@ -6,3 +6,4 @@ resource "random_pet" "pet" {
 }
 resource "null_resource" "example7777" {}
 resource "null_resource" "example777" {}
+resource "null_resource" "example7" {}
