@@ -5,5 +5,3 @@ resource "random_pet" "pet" {
   length = 10
 }
 resource "null_resource" "example7777" {}
-resource "null_resource" "example77" {}
-resource "null_resource" "example7" {}
